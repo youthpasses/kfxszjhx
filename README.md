@@ -49,7 +49,7 @@ https://biendata.com/competition/scholar/
 
 #### 1.2 学者信息提取
 
-####### 1.2.1 照片链接pic
+###### 1.2.1 照片链接pic
 
 正则找到所有<img...>，src+alt判断学者姓名、profile、logo、footer、svg，若pic前缀不为http需要截取homepage目录进行补充。
 
